@@ -1,7 +1,4 @@
 use std::fs;
-// use std::error::Error;
-// use std::vec;
-// use std::iter;
 
 fn main() {
     let input_string = fs::read_to_string("puzzle_input.txt").expect("Error reading file");
